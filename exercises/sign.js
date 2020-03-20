@@ -9,7 +9,11 @@
  *
  * @notions Functions, If-Else
  */
-
+const sign = function(num){
+    if (num < 0) return -1;
+    else if (num > 0) return 1;
+    else return 0;
+}
 // Your code:
 
 //* Begin of tests
