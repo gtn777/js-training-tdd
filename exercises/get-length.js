@@ -9,6 +9,15 @@
 
 // Your code:
 
+const getLength = function(arg){
+    let result = 0;
+    for (let num of arg) {
+    result++;
+    }
+return result;  
+}
+
+
 //* Begin of tests
 const assert = require('assert');
 

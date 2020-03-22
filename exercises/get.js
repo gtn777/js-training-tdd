@@ -14,6 +14,9 @@ const sourceObject = {
   str: 'some text',
   log: console.log,
 };
+const get = function(key){
+  return (sourceObject[key]);
+};
 
 // Your code:
 
